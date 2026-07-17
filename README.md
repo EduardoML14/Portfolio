@@ -1,16 +1,96 @@
-# React + Vite
+# 💼 Meu Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Site pessoal desenvolvido para apresentar meus projetos, tecnologias e experiência como desenvolvedor.
 
-Currently, two official plugins are available:
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-Rolldown-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vite.dev/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow?style=flat-square)]()
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📋 Sobre o projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Portfólio pessoal desenvolvido em React com Vite, com o objetivo de apresentar meus projetos, minha stack de tecnologias e formas de contato de forma simples, rápida e responsiva.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🧰 Tecnologias utilizadas
+
+| Tecnologia          | Uso                                  |
+| -------------------- | ------------------------------------- |
+| `React`              | Biblioteca principal da interface     |
+| `Vite (Rolldown)`    | Build tool e servidor de desenvolvimento |
+| `Tailwind CSS`       | Estilização utilitária                |
+| `oxlint`             | Linting do código                     |
+
+---
+
+## ⚙️ Funcionalidades
+
+- 🏠 Header com navegação
+- ✨ Hero de apresentação
+- 💻 Seção de projetos
+- 🛠️ Seção de stack de tecnologias
+- 📩 Footer com contatos
+
+---
+
+## 🚀 Como executar
+
+### Pré-requisitos
+
+- [Node.js](https://nodejs.org/) instalado
+
+### Rodando o projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/EduardoML14/meu-portfolio
+
+# Acesse a pasta
+cd meu-portfolio
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
+```
+
+---
+
+## 🗂️ Estrutura do projeto
+
+```
+meu-portfolio/
+├── public/                 # Arquivos estáticos (ícones, favicon)
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Stack.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── vite.config.js
+└── package.json
+```
+
+---
+
+## 🌐 Deploy
+
+🔗 Em breve
+
+---
+
+## 🧑‍💻 Autor
+
+Feito por **Eduardo Moreira Lima**
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EduardoML14)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardomoreiralima/)
