@@ -5,7 +5,7 @@ export default function Sobre() {
       <h2 className="mt-2 text-2xl font-medium text-text">Quem eu sou</h2>
 
       <div className="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-text-dim">
-        <p>Graduando em Ciência da Computação / Cientista de Dados</p>
+        <p>Graduando em Ciência da Computação / Analista de Dados</p>
         <p>
           Tenho interesse principalmente nas áreas de desenvolvimento, análise
           de dados e automação, sempre buscando aprender algo novo e evoluir
