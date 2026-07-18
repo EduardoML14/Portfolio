@@ -1,7 +1,7 @@
 const LINKS = [
   { label: 'sobre', href: '#sobre' },
   { label: 'projetos', href: '#projetos' },
-  { label: 'stack', href: '#stack' },
+  { label: 'Tecnologias', href: '#stack' },
   { label: 'contato', href: '#contato' },
 ]
 

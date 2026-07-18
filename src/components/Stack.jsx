@@ -9,8 +9,7 @@ const GROUPS = [
 export default function Stack() {
   return (
     <section id="stack" className="mx-auto max-w-4xl px-6 py-16">
-      <p className="font-mono text-sm text-text-faint">// stack</p>
-      <h2 className="mt-2 text-2xl font-medium text-text">Minhas Tecnológicas</h2>
+      <h2 className="mt-2 text-2xl font-medium text-text">Tecnologias</h2>
 
       <div className="mt-8 divide-y divide-hair rounded-lg border border-hair">
         {GROUPS.map((group) => (

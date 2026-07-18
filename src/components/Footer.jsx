@@ -2,8 +2,7 @@ export default function Footer() {
   return (
     <footer id="contato" className="mx-auto max-w-4xl px-6 pb-10 pt-6">
       <div className="rounded-lg border border-hair bg-surface/60 p-6">
-        <p className="font-mono text-sm text-text-faint">// contato</p>
-        <h2 className="mt-2 text-xl font-medium text-text">Vamos conversar</h2>
+        <h2 className="mt-2 text-xl font-medium text-text">Vamos conversar?</h2>
         <p className="mt-2 max-w-md text-sm leading-relaxed text-text-dim">
           Aberto a trocar ideia sobre projetos, oportunidades ou open-source.
         </p>

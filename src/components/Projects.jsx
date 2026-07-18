@@ -66,8 +66,7 @@ function ProjectCard({ project }) {
 export default function Projects() {
   return (
     <section id="projetos" className="mx-auto max-w-4xl px-6 py-16">
-      <p className="font-mono text-sm text-text-faint">// projetos</p>
-      <h2 className="mt-2 text-2xl font-medium text-text">O que venho construindo</h2>
+      <h2 className="mt-2 text-2xl font-medium text-text">Projetos Desenvolvidos</h2>
       <div className="mt-8 grid gap-4 sm:grid-cols-2">
         {PROJECTS.map((project) => (
           <ProjectCard key={project.title} project={project} />
