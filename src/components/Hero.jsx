@@ -36,14 +36,21 @@ export default function Hero() {
             <span className="cursor-blink">_</span>
           </p>
 
-          <h1 className="mt-6 font-mono text-3xl leading-tight text-text sm:text-4xl">
-            Eduardo Moreira Lima
-          </h1>
-          <p className="mt-3 max-w-xl text-base leading-relaxed text-text-dim">
-            Graduando em Ciência da Computação.
-            Tenho interesse principalmente nas áreas de desenvolvimento, análise de dados e automação, sempre buscando aprender algo novo e evoluir tecnicamente a cada projeto. Atualmente participo de projetos envolvendo análise de vendas, previsões com base em histórico de dados e geração de insights para apoio na tomada de decisão.
-            Sou uma pessoa curiosa, analítica e autocrítica, gosto de entender como as coisas funcionam e encontrar maneiras mais eficientes de resolver problemas. Acredito muito no aprendizado constante e em crescer através da prática, desafios e experiências reais.
-          </p>
+          <div className="mt-6 flex flex-col items-start gap-5 sm:flex-row sm:items-center">
+            <img
+              src="/eduardo.jpg"
+              alt="Foto de Eduardo Moreira Lima"
+              className="h-20 w-20 shrink-0 rounded-full border border-hair-strong object-cover sm:h-24 sm:w-24"
+            />
+            <div>
+              <h1 className="font-mono text-3xl leading-tight text-text sm:text-4xl">
+                Eduardo Moreira Lima
+              </h1>
+              <p className="mt-3 max-w-xl text-base leading-relaxed text-text-dim">
+                Cursando Ciência da Computação | Analista de Dados | Desenvolvedor | Linux | Python | Power BI | Excel | Linux
+              </p>
+            </div>
+          </div>
 
           {done && (
             <div className="mt-8 flex flex-wrap gap-3 font-mono text-sm">

@@ -1,7 +1,8 @@
 const GROUPS = [
-  { label: 'linguagens', items: ['Python', 'JavaScript'] },
+  { label: 'linguagens', items: ['Python', 'JavaScript', 'Java'] },
   { label: 'backend', items: ['FastAPI', 'Laravel'] },
-  { label: 'dados', items: ['SQLite', 'PostgreSQL', 'MySQL'] },
+  { label: 'dados', items: ['SQLite', 'PostgreSQL', 'MySQL', 'NoSQL'] },
+  { label: 'análise', items: ['Power BI', 'Excel', 'Artificial Intelligence'] },
   { label: 'infra', items: ['Linux', 'Git'] },
 ]
 
@@ -9,7 +10,7 @@ export default function Stack() {
   return (
     <section id="stack" className="mx-auto max-w-4xl px-6 py-16">
       <p className="font-mono text-sm text-text-faint">// stack</p>
-      <h2 className="mt-2 text-2xl font-medium text-text">Com o que eu trabalho</h2>
+      <h2 className="mt-2 text-2xl font-medium text-text">Minhas Tecnológicas</h2>
 
       <div className="mt-8 divide-y divide-hair rounded-lg border border-hair">
         {GROUPS.map((group) => (
