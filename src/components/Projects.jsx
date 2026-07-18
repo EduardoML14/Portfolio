@@ -14,11 +14,11 @@ const PROJECTS = [
     href: 'https://github.com/HanryLedoux/iDonate',
   },
   {
-    path: '~/projetos/potenciometro-rd',
-    title: 'Potenciômetro RD',
-    description: 'App Android educativo sobre riscos na adolescência.',
-    tags: ['Android'],
-    href: null,
+    path: '~/projetos/API-Mercado-Livre',
+    title: 'API-Mercado-Livre',
+    description: 'API em Python que cada script resolve uma necessidade específica.',
+    tags: ['Python', 'API'],
+    href: 'https://github.com/EduardoML14/API-Mercado-Livre',
   },
   {
     path: '~/projetos/visitas-api-ml',
