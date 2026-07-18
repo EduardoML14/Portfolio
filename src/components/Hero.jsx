@@ -47,7 +47,7 @@ export default function Hero() {
                 Eduardo Moreira Lima
               </h1>
               <p className="mt-3 max-w-xl text-base leading-relaxed text-text-dim">
-                Cursando Ciência da Computação | Analista de Dados | Desenvolvedor | Linux | Python | Power BI | Excel | Linux
+                Cursando Ciência da Computação | Analista de Dados | Desenvolvedor | Linux | Python | Power BI | Excel
               </p>
             </div>
           </div>
