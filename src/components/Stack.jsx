@@ -1,6 +1,6 @@
 const GROUPS = [
   { label: 'linguagens', items: ['Python', 'JavaScript', 'Java'] },
-  { label: 'backend', items: ['API', 'FastAPI', 'Laravel'] },
+  { label: 'backend', items: ['API', 'FastAPI', 'Laravel', 'React'] },
   { label: 'dados', items: ['SQLite', 'PostgreSQL', 'MySQL', 'NoSQL'] },
   { label: 'análise', items: ['Power BI', 'Excel', 'Artificial Intelligence'] },
   { label: 'infra', items: ['Linux', 'Git'] },
